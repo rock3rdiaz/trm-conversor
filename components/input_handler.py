@@ -3,18 +3,18 @@
 
 import requests
 import json
+def input_handler():
+    URL: str = "https://www.freeforexapi.com/api/live?pairs=USDCOP"
 
-URL: str = "https://www.freeforexapi.com/api/live?pairs=USDCOP"
+    r = requests.get(URL)
+    j = r.json()
 
-r = requests.get(URL)
-j = r.json()
+    usdvalor = j['rates']['USDCOP']['rate']
+    return usdvalor
 
-usdvalor = j['rates']['USDCOP']['rate']
-print(int(usdvalor))
 
-class Input:
-    def __init__(self):
-        self.dolar = usdvalor
+
+
 
 
 

@@ -6,7 +6,7 @@ class Conversor:
         self.dolares = dolares_cambio
 
     def __str__(self):
-        return self.pesos, self.dolares
+        return self.pesos,* self.dolares
 
     # def __mul__(self, other: Conversor ):
     #     return (self.dolares * self.pesos )
@@ -14,8 +14,4 @@ class Conversor:
     # def __floordiv__(self, other: Conversor):
     #     return (self.pesos // self.dolares)
 
-
-
-cambio1 = Conversor(200000, 20)
-print(cambio1)
 

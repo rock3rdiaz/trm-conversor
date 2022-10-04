@@ -1,12 +1,8 @@
 from data_handler import *
-from input_handler import *
-from business_handler import *
 
+def division  (a: object, b: object) -> object:
+    return a/b
 
-def __init__ (self, pesos, usd):
-    calculo1 = (self.pesos // self.dolar)
-    return print(calculo1)
+def multiplicacion (a: object, b: object) -> object:
+    return a * b
 
-def __init__ (self ,usd, pesos):
-    calculo2 = (self.dolares * self.dolar )
-    return print(calculo2)
