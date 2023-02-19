@@ -10,10 +10,10 @@ if __name__ == "__main__":
    print(valor)
    print(trm_usd)
 
-operacion1 = multiplicacion(valor, trm_usd)
+multiplicacion(valor, trm_usd)
 
-operacion2 = division(trm_usd, valor)
+division(trm_usd, valor)
 
-print(int(operacion2))
-print(int(operacion1))
+print(int(trm_usd * valor()))
+print(int(division()))
 

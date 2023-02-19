@@ -8,10 +8,6 @@ class Conversor:
     def __str__(self):
         return self.pesos,* self.dolares
 
-    # def __mul__(self, other: Conversor ):
-    #     return (self.dolares * self.pesos )
-    #
-    # def __floordiv__(self, other: Conversor):
-    #     return (self.pesos // self.dolares)
+
 
 
